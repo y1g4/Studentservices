@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 18, 2026 at 04:25 PM
+-- Generation Time: Sep 18, 2026 at 06:01 PM
 -- Server version: 10.11.19-MariaDB-ubu2204
 -- PHP Version: 8.4.25
 
@@ -31,6 +31,15 @@ CREATE TABLE `Campuses` (
   `Campus_id` int(11) NOT NULL,
   `Campus_name` varchar(45) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `Campuses`
+--
+
+INSERT INTO `Campuses` (`Campus_id`, `Campus_name`) VALUES
+(2, 'Kihumuro'),
+(3, 'Mbarara'),
+(4, 'Mulago');
 
 -- --------------------------------------------------------
 
@@ -79,6 +88,18 @@ CREATE TABLE `Faculties` (
   `Universities_University_id` int(11) NOT NULL,
   `Campuses_Campus_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `Faculties`
+--
+
+INSERT INTO `Faculties` (`Faculty_id`, `Faculty_name`, `Universities_University_id`, `Campuses_Campus_id`) VALUES
+(11, 'Faculty of Medicine', 9, 3),
+(12, 'Faculty of Science', 9, 3),
+(13, 'Faculty of Interdisciplinary Studies', 9, 3),
+(14, 'Faculty of Business and Management Sciences', 9, 3),
+(15, 'Faculty of Computing and Informatics', 9, 2),
+(16, 'Faculty of Applied Sciences and Technology', 9, 2);
 
 -- --------------------------------------------------------
 
@@ -168,7 +189,8 @@ CREATE TABLE `Universities` (
 INSERT INTO `Universities` (`University_id`, `University_name`) VALUES
 (3, 'NDEJJE'),
 (6, 'KAB'),
-(8, 'KYU');
+(8, 'KYU'),
+(9, 'MUST');
 
 --
 -- Indexes for dumped tables
