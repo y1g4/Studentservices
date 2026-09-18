@@ -24,73 +24,90 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
               <Component id="jLabel3" min="-2" pref="143" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="universityidtxt" pref="255" max="32767" attributes="0"/>
               <EmptySpace min="-2" pref="212" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="jLabel2" min="-2" pref="143" max="-2" attributes="0"/>
-                  <Component id="jLabel4" min="-2" pref="143" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="universityidtxt2" max="32767" attributes="0"/>
-                  <Component id="universityidtxt1" max="32767" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
               <Component id="btnsave1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnsave2" min="-2" max="-2" attributes="0"/>
+              <Component id="btnfind" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnsave3" min="-2" max="-2" attributes="0"/>
+              <Component id="btnfirst" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="btnsave4" min="-2" max="-2" attributes="0"/>
+              <Component id="btnlast" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnsave5" min="-2" max="-2" attributes="0"/>
+              <Component id="btnnext" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnsave7" min="-2" max="-2" attributes="0"/>
+              <Component id="btnprevious" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnsave6" min="-2" max="-2" attributes="0"/>
+              <Component id="btndelete" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel5" min="-2" pref="143" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" pref="143" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="143" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="campustxt" max="32767" attributes="0"/>
+                  <Component id="unidropdown" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="233" max="-2" attributes="0"/>
+                  <Component id="universityidtxt3" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="200" max="-2" attributes="0"/>
+              </Group>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+              <EmptySpace pref="74" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="universityidtxt" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
                   <Component id="jLabel3" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" pref="51" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel4" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                  <Component id="universityidtxt2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace pref="36" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="universityidtxt1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="unidropdown" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
                   <Component id="jLabel2" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                  <Component id="campustxt" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnsave1" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                  <Component id="btnsave2" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                  <Component id="btnsave3" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                  <Component id="btnsave4" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                  <Component id="btnsave5" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                  <Component id="btnsave6" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                  <Component id="btnsave7" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="btnfind" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="btnfirst" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="btnlast" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="btnnext" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="btndelete" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="btnprevious" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
+                  <Component id="universityidtxt3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <EmptySpace pref="235" max="32767" attributes="0"/>
+              </Group>
           </Group>
       </Group>
     </DimensionLayout>
@@ -113,9 +130,7 @@
         <Property name="text" type="java.lang.String" value="Faculty Name"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="universityidtxt1">
-    </Component>
-    <Component class="javax.swing.JTextField" name="universityidtxt2">
+    <Component class="javax.swing.JTextField" name="campustxt">
     </Component>
     <Component class="javax.swing.JButton" name="btnsave1">
       <Properties>
@@ -125,53 +140,78 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsave1ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsave2">
+    <Component class="javax.swing.JButton" name="btnfind">
       <Properties>
         <Property name="text" type="java.lang.String" value="Find"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsave2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnfindActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsave3">
+    <Component class="javax.swing.JButton" name="btnfirst">
       <Properties>
         <Property name="text" type="java.lang.String" value="First"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsave3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnfirstActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsave4">
+    <Component class="javax.swing.JButton" name="btnlast">
       <Properties>
         <Property name="text" type="java.lang.String" value="Last"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsave4ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnlastActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsave5">
+    <Component class="javax.swing.JButton" name="btnnext">
       <Properties>
         <Property name="text" type="java.lang.String" value="Next"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsave5ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnnextActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsave6">
+    <Component class="javax.swing.JButton" name="btndelete">
       <Properties>
         <Property name="text" type="java.lang.String" value="Delete"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsave6ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btndeleteActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnsave7">
+    <Component class="javax.swing.JButton" name="btnprevious">
       <Properties>
         <Property name="text" type="java.lang.String" value="Previous"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsave7ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnpreviousActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="unidropdown">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="unidropdownActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Campus ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="universityidtxt3">
     </Component>
   </SubComponents>
 </Form>
