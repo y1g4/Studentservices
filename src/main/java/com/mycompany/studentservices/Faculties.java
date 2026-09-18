@@ -32,9 +32,9 @@ public class Faculties extends javax.swing.JFrame {
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Faculties.class.getName());
 
    
-    public Faculties() {
+public Faculties() {
     initComponents();
-    
+
      con = null;
     st = null;
     statement = null;
@@ -42,7 +42,7 @@ public class Faculties extends javax.swing.JFrame {
     cs = "jdbc:mysql://localhost:3306/studentservicesdb";
     user = "root";
     password = "Peacebewithyouall2020!!";
-    
+
     loadDropdowns();   // connect() removed — loadDropdowns() opens/closes its own connection
 
     // close the DB connection cleanly when the window closes
@@ -60,8 +60,7 @@ public class Faculties extends javax.swing.JFrame {
         }
     });
 }
-    
-    
+
   private void loadDropdowns() {
     universityidtxt4.removeAllItems();
     campusselecttxt.removeAllItems();
@@ -96,9 +95,6 @@ public class Faculties extends javax.swing.JFrame {
         }
     }
 }
-
-
-
 
   private void connect() {
         try {

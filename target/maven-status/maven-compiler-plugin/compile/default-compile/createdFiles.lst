@@ -2,7 +2,9 @@ com/mycompany/studentservices/ComboItem.class
 com/mycompany/studentservices/Universities.class
 com/mycompany/studentservices/Login.class
 com/mycompany/studentservices/Faculties$1.class
+com/mycompany/studentservices/Departments$1.class
 com/mycompany/studentservices/Studentservices.class
+com/mycompany/studentservices/Departments.class
 com/mycompany/studentservices/Campuses.class
 com/mycompany/studentservices/Faculties.class
 com/mycompany/studentservices/Main_page.class
