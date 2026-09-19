@@ -1,6 +1,7 @@
 
-package com.mycompany.studentservices;
+package com.mycompany.studentservices.academic.db;
 
+import com.mycompany.studentservices.academic.model.ComboItem;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.sql.Connection;

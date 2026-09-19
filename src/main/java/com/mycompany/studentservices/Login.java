@@ -202,7 +202,6 @@ finally{
            txtpassword.setText(rs.getString("Password"));
            txtusername.requestFocus();
            dispose();
-         // new Main_page().Main();
            }
            else{
                JOptionPane.showMessageDialog(null,"Wrong password");

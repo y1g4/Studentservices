@@ -1,4 +1,4 @@
-package com.mycompany.studentservices;
+package com.mycompany.studentservices.academic.model;
 
 public class ComboItem {
     private final int id;

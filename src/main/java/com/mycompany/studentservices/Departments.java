@@ -1,6 +1,7 @@
 
 package com.mycompany.studentservices;
 
+import com.mycompany.studentservices.academic.model.ComboItem;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.sql.Connection;
@@ -403,7 +404,8 @@ public class Departments extends javax.swing.JFrame {
 
     private void NextbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextbtnActionPerformed
       // TODO add your handling code here:
-      try {
+    
+     try {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
 
@@ -433,7 +435,6 @@ public class Departments extends javax.swing.JFrame {
     } catch (ClassNotFoundException e) {
         e.printStackTrace();
     }
-
 
     }//GEN-LAST:event_NextbtnActionPerformed
 

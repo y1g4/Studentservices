@@ -1,8 +1,8 @@
-/home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/Campuses.java
-/home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/ComboItem.java
 /home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/Departments.java
-/home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/Faculties.java
 /home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/Login.java
 /home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/Main_page.java
 /home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/Studentservices.java
-/home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/Universities.java
+/home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/academic/db/Faculties.java
+/home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/academic/db/Universities.java
+/home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/academic/model/ComboItem.java
+/home/anonymous/NetBeansProjects/Studentservices/src/main/java/com/mycompany/studentservices/campus/Campuses.java
